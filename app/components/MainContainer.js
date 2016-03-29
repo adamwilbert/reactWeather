@@ -3,7 +3,7 @@ var styles = require('../styles')
 
 function MainContainer (props) {
   return (
-    <div className="jumbotron col-sm-12 text-center" >
+    <div style={styles.bg} >
     {props.children}
     </div>
   )

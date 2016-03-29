@@ -6,7 +6,7 @@ require('../main.css')
 var Main = React.createClass({
   render: function(){
     return (
-      <div className='main-container'>
+      <div className='main-container' >
       <ReactCSSTransitionGroup
       transitionName='appear'
       transitionEnterTimeout={500}
