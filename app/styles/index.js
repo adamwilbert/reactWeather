@@ -2,13 +2,17 @@ var styles = {
   bg: {
     backgroundSize: 'cover',
     backgroundImage: 'url(app/images/pattern.svg)',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
     minHeight: '100vh',
-    minWidth: '100%'
+    width: '100%'
   },
   mainTitle: {
     color: '#fff',
     fontWeight: '100',
-    fontSize: '45px',
+    fontSize: 45
   }
 }
 
