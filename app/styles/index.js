@@ -1,6 +1,6 @@
 var styles = {
   bg: {
-    background: 'cover',
+    backgroundSize: 'cover',
     backgroundImage: 'url(app/images/pattern.svg)',
     minHeight: '100vh'
   }
